@@ -3,15 +3,14 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "https://localhost:1313"
+baseURL = "https://doheson.github.io"
 defaultContentLanguage = "en"
 disableLanguages = [] #to allow translation work requiring shipping to production
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true
-summaryLength = 30
-hasCJKLanguage = true
+summaryLength = 0
 
 buildDrafts = false
 buildFuture = false
@@ -21,7 +20,7 @@ enableEmoji = true
 googleAnalytics = "G-PEDMYR1V0K"
 
 [pagination]
-  pagerSize = 102
+  pagerSize = 100
 
 [imaging]
   anchor = 'Center'
@@ -69,12 +68,3 @@ googleAnalytics = "G-PEDMYR1V0K"
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
-
-# Render only specific parts of the site for faster development. Use: hugo --renderSegments site_core
-[segments]
-  [segments.site_core]
-    [[segments.site_core.includes]]
-      path = '{/,/docs,/docs/**,/samples,/samples/**}'
-  [segments.en_only]
-    [[segments.en_only.includes]]
-      lang = 'en'
