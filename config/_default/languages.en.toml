@@ -16,7 +16,7 @@ title = "Blog of doheson"
 [params.author]
   name = "Dohee Sohn (doheson)"
   email = "doheson@gmail.com"
-  image = "img/profile.png"
+  image = ""
   imageQuality = 96
   headline = "Software Engineer"
   bio = ""
