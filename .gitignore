@@ -4,3 +4,5 @@ resources/
 .DS_Store
 themes/blowfish/exampleSite/
 themes/blowfish/archetypes/
+echo "themes/blowfish/exampleSite/" >> .gitignore
+echo "themes/blowfish/archetypes/" >> .gitignore
