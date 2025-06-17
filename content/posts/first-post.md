@@ -7,6 +7,4 @@ tags: ["introduction", "hugo", "blowfish"]
 
 # Welcome to My Blog!
 
-This is the very first post on my Hugo + Blowfish-powered blog.
-
-*Thank you for visiting. Stay tuned for more updates!*
+This is the first post on my Hugo + Blowfish-powered blog.
