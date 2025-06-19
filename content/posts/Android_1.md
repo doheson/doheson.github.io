@@ -3,6 +3,7 @@ title: "Android15(API level 35) 이상 대비 Edge to Edge 패딩 처리"
 date: 2025-06-17T12:05:00+09:00
 draft: false
 tags: ["Android"]
+category: "Android"
 ---
 Android 15(API 레벨 35) 이상을 타겟팅하는 앱은 기본적으로 전체 디스플레이 영역을 활용한다.\
 이 과정에서 안드로이드의 네비게이션바와 앱의 컨텐츠가 겹치는 현상이 발생하여 이슈가 발생했다.\
