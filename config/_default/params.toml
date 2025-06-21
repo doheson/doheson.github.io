@@ -42,15 +42,23 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "page" # valid options: page, profile, hero, card, background, custom
-#homepageImage = "IMAGE.jpg" # used in: hero, and card
-showRecent = false
-showRecentItems = 5
-showMoreLink = false
+backgroundOverlay = true           # 오버레이 활성화
+backgroundOverlayColor = "#222222" # 오버레이 색상 (예: 진한 회색)
+backgroundOverlayOpacity = 0.5     # 오버레이 투명도 (0~1)
+layout = "background"
+homepageImage = "image.jpg"
+showRecent = true
+showRecentItems = 6
+showMoreLink = true
 showMoreLinkDest = "/posts/"
-cardView = false
-cardViewScreenWidth = false
-layoutBackgroundBlur = false # only used when layout equals background
+cardView = true
+layoutBackgroundBlur = true
+
+[params.recent]
+showImage = true
+showSummary = true
+showTags = true
+showDate = true
 
 [article]
 showDate = true

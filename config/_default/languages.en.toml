@@ -14,11 +14,10 @@ title = "Blog of doheson"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
-  name = "Dohee Sohn (doheson)"
+  name = "Dohee Sohn"
   email = "doheson@gmail.com"
   image = ""
   imageQuality = 96
-  headline = "Software Engineer"
   bio = ""
   links = [
     { email = "mailto:doheson@gmail.com" },
